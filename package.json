@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/casperjs/bin/casperjs selftest",
-    "go": "node_modules/casperjs/bin/casperjs index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axe-core": "^3.1.2",
     "axe-webdriverjs": "^2.0.1",
+    "axios": "^0.18.0",
     "casperjs": "^1.1.4",
-    "phantomjs-prebuilt": "^2.1.16",
+    "html-validator": "^3.1.2",
     "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.16"
   }
 }
